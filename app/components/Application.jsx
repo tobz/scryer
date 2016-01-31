@@ -12,7 +12,7 @@ var Application = React.createClass({
         <div className="top-bar search-bar">
           <div className="top-bar-left">
             <ul className="dropdown menu">
-              <li className="menu-text">Scyrer</li>
+              <li className="menu-text">Scryer</li>
             </ul>
           </div>
           <div className="top-bar-right">
@@ -20,9 +20,9 @@ var Application = React.createClass({
               <li>
                 <DebounceInput
                   minLength={3}
-                  debounceTimeout={250}
+                  debounceTimeout={350}
                   onChange={this.onSearchQueryChanged}
-                  id="omnibox" type="search" placeholder="Name, color, flavor text..." />
+                  id="omnibox" type="search" placeholder="Name, text, artist, etc..." />
               </li>
             </ul>
           </div>
